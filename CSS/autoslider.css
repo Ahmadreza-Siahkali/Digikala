@@ -1,0 +1,27 @@
+.autoslider{
+    width: 100%;
+    height: 400px;
+    .swiper-button-next{
+        top: unset;
+        left: unset;
+        right: 100px;
+        bottom: 25px;
+    }
+    .swiper-button-prev{
+        top: unset;
+        right: 40px;
+        bottom: 25px;
+    }
+    .swiper-pagination-bullet{
+        width: 5px;
+        height: 5px;
+        background-color: #353535;
+        opacity: 1;
+        transition: 300ms;
+    }
+    .swiper-pagination-butllet-active{
+        background-color: white;
+        width: 15px;
+        border-radius: 30px;
+    }
+}

@@ -1,0 +1,42 @@
+.story__container{
+    width: 100%;
+    height: 170px;
+    .story__center {
+        width: 80%;
+        height: 100%;
+        margin: 0 auto;
+        .slide__col{
+            width: 100%;
+            height: 100%;
+            .story__image{
+                width: 100%;
+                height: 60%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                img{
+                    width: 74px;
+                    height: 74px;
+                    border-radius: 50%;
+                    outline: 2px solid purple;
+                    outline-offset: 3px;
+                } 
+            }
+            .story__text{
+                width: 100%;
+                height: 40%;
+                padding-top: 8px;
+                p{
+                    font-size: 12px;
+                    padding: 0 8px;
+                    color: #353535
+                    width: 100%;
+                    display: -webkit-box;
+                    -webkit-box-orient: vertical;
+                    -webkit-line-clamp: 2;
+                    overflow: hidden;
+                }
+            }
+        }
+    }
+}

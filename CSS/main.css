@@ -1,0 +1,30 @@
+@import "./setting.css";
+@import "./swiper.css";
+@import "./header.css";
+@import "./autoslider.css";
+@import "./story.css";
+@import "./redslider.css";
+@import "./bestseller.css";
+@import "./ezafi.css";
+@import "./banner.css";
+@import "./top__banner.css";
+@import "./buttons.css";
+@import "./discountbanner.css";
+@import "./superi.css";
+@import "./dbanner.css";
+
+.container{
+    width: 100%;
+    height: 150px;
+    padding: 0 40px;
+    position: relative;
+    padding-top: 30px;
+    .grad{
+        width: 100%;
+        height: 100%;
+        background-image: linear-gradient(transparent, white 80%);
+        position: absolute;
+        top: 0;
+
+    }
+}

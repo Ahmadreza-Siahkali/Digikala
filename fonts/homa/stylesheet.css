@@ -1,0 +1,12 @@
+@font-face {
+    font-family: 'B Homa';
+    src: url('BHoma.eot');
+    src: url('BHoma.eot?#iefix') format('embedded-opentype'),
+        url('BHoma.woff2') format('woff2'),
+        url('BHoma.woff') format('woff'),
+        url('BHoma.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
